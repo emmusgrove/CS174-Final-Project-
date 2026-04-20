@@ -1,0 +1,63 @@
+The system is: Linux - 5.10.16.3-microsoft-standard-WSL2 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/mnt/c/Users/nerdb/finalCompleted/build2/CMakeFiles/3.16.3/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/mnt/c/Users/nerdb/finalCompleted/build2/CMakeFiles/3.16.3/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /mnt/c/Users/nerdb/finalCompleted/build2/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_56d2a/fast && make: Warning: File 'Makefile' has modification time 271 s in the future
+/usr/bin/make -f CMakeFiles/cmTC_56d2a.dir/build.make CMakeFiles/cmTC_56d2a.dir/build
+make[1]: Entering directory '/mnt/c/Users/nerdb/finalCompleted/build2/CMakeFiles/CMakeTmp'
+make[1]: Warning: File 'CMakeFiles/cmTC_56d2a.dir/flags.make' has modification time 271 s in the future
+Building C object CMakeFiles/cmTC_56d2a.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_56d2a.dir/testCCompiler.c.o   -c /mnt/c/Users/nerdb/finalCompleted/build2/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_56d2a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_56d2a.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_56d2a.dir/testCCompiler.c.o  -o cmTC_56d2a 
+make[1]: warning:  Clock skew detected.  Your build may be incomplete.
+make[1]: Leaving directory '/mnt/c/Users/nerdb/finalCompleted/build2/CMakeFiles/CMakeTmp'
+make: warning:  Clock skew detected.  Your build may be incomplete.
+
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /mnt/c/Users/nerdb/finalCompleted/build2/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a383a/fast && make: Warning: File 'Makefile' has modification time 271 s in the future
+/usr/bin/make -f CMakeFiles/cmTC_a383a.dir/build.make CMakeFiles/cmTC_a383a.dir/build
+make[1]: Entering directory '/mnt/c/Users/nerdb/finalCompleted/build2/CMakeFiles/CMakeTmp'
+make[1]: Warning: File 'CMakeFiles/cmTC_a383a.dir/flags.make' has modification time 271 s in the future
+Building CXX object CMakeFiles/cmTC_a383a.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_a383a.dir/testCXXCompiler.cxx.o -c /mnt/c/Users/nerdb/finalCompleted/build2/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_a383a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a383a.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_a383a.dir/testCXXCompiler.cxx.o  -o cmTC_a383a 
+make[1]: warning:  Clock skew detected.  Your build may be incomplete.
+make[1]: Leaving directory '/mnt/c/Users/nerdb/finalCompleted/build2/CMakeFiles/CMakeTmp'
+make: warning:  Clock skew detected.  Your build may be incomplete.
+
+
+
